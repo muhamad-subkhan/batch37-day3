@@ -1,0 +1,55 @@
+body{
+    background: rgba(221,225,228,255);
+    margin: 0%;
+}
+
+nav{
+    background: rgba(244,243,243,255);
+    display: flex;
+    align-content: center;
+    height: 5vh;
+}
+
+.left{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+a img{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+ul .project a{
+    color: grey;
+}
+
+nav .right{
+    flex: 50%;
+    text-align:end;
+    margin-right: 50px;
+    margin-top: 10px;
+
+}
+
+.right a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px 25px;
+    border-radius: 10px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/contact.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li class="home">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="project">
+                    <a href="project.html">My project</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <form action="">
+        <h2>GET IN TOUCH</h2>
+
+        <div class="name">
+            <label for="name">Name</label><br>
+            <input type="text" id="input-name" placeholder="input your name" required>
+        </div>
+
+        <div class="phone">
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="input-phone" placeholder="input your phone" required>
+        </div>
+
+        <div class="email">
+            <label for="email">Email</label><br>
+            <input type="text" id="input-email" placeholder="input your email" required>
+        </div>
+
+        <div class="subject">
+            <label for="subject">Subject</label><br>
+            <select name="" id="input-subject" required>
+                <option value=""></option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Fullstack">Fullstack</option>
+            </select>
+        </div>
+
+        <div class="message">
+            <label for="text-area">Your Message</label><br>
+            <textarea name="" id="input-message" cols="20" rows="5" required></textarea>
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="getData()">Submit</button>
+        </div>
+        </div>
+    </form>
+
+
+
+</body>
+<script src="js/contact.js"></script>
+</html>
